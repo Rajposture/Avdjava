@@ -1,0 +1,26 @@
+<%@ page language="java" %>
+<html>
+<body>
+
+<h2>Employee Details</h2>
+
+First Name: <%= request.getParameter("fname") %><br>
+Middle Name: <%= request.getParameter("mname") %><br>
+Last Name: <%= request.getParameter("lname") %><br>
+
+Email: <%= request.getParameter("email") %><br>
+Mobile: <%= request.getParameter("mobile") %><br>
+
+Street: <%= request.getParameter("street") %><br>
+City: <%= request.getParameter("city") %><br>
+Pin Code: <%= request.getParameter("pincode") %><br>
+
+Hire Date: <%= request.getParameter("hiredate") %><br>
+Manager: <%= request.getParameter("manager") %><br>
+
+Qualification: <%= request.getParameter("qualification") %><br>
+Designation: <%= request.getParameter("designation") %><br>
+Experience: <%= request.getParameter("experience") %><br>
+
+</body>
+</html>

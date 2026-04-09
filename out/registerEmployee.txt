@@ -1,0 +1,32 @@
+<%@ page language="java" %>
+<html>
+<body>
+
+<h2>Employee Registration</h2>
+
+<form action="userProfile.jsp" method="post">
+
+First Name: <input type="text" name="fname"><br><br>
+Middle Name: <input type="text" name="mname"><br><br>
+Last Name: <input type="text" name="lname"><br><br>
+
+Email: <input type="text" name="email"><br><br>
+Mobile: <input type="text" name="mobile"><br><br>
+
+Street: <input type="text" name="street"><br><br>
+City: <input type="text" name="city"><br><br>
+Pin Code: <input type="text" name="pincode"><br><br>
+
+Hire Date: <input type="date" name="hiredate"><br><br>
+Manager: <input type="text" name="manager"><br><br>
+
+Qualification: <input type="text" name="qualification"><br><br>
+Designation: <input type="text" name="designation"><br><br>
+Experience: <input type="text" name="experience"><br><br>
+
+<input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>

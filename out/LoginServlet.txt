@@ -1,0 +1,27 @@
+import java.io.*;
+import jakarta.servlet.*;
+import jakarta.servlet.http.*;
+
+public class LoginServlet extends HttpServlet {
+
+    public void doPost(HttpServletRequest request,
+                       HttpServletResponse response)
+                       throws ServletException, IOException {
+
+        response.setContentType("text/html");
+
+        PrintWriter out = response.getWriter();
+
+        String user = request.getParameter("userName");
+        String pass = request.getParameter("password");
+
+        out.println("<html><body>");
+
+        if(user.equals(pass))
+            out.println("<h1>Login Successful</h1>");
+        else
+            out.println("<h1>authentication failure</h1>");
+
+        out.println("</body></html>");
+    }
+}

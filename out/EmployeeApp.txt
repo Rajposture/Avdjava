@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee App</title>
+</head>
+<body>
+    <h1>Welcome to Employee App</h1>
+    <ul>
+        <li><a href="registerEmployee.jsp">Register Employee</a></li>
+        <li><a href="userProfile.jsp">User Profile</a></li>
+    </ul>
+</body>
+</html>
